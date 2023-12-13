@@ -2,7 +2,7 @@ const keys = {
   ArrowLeft: false,
   ArrowRight: false,
   ArrowUp: false,
-  // ArrowDown: false,
+  ArrowDown: false,
 };
 
 window.onkeydown = (e) => {
@@ -16,9 +16,9 @@ window.onkeydown = (e) => {
     case "ArrowUp":
       keys.ArrowUp = true;
       break;
-    // case "ArrowDown":
-    //   keys.ArrowDown = true;
-    //   break;
+    case "ArrowDown":
+      keys.ArrowDown = true;
+      break;
   }
 };
 
@@ -33,8 +33,8 @@ window.onkeyup = (e) => {
     case "ArrowUp":
       keys.ArrowUp = false;
       break;
-    // case "ArrowDown":
-    //   keys.ArrowDown = true;
-    //   break;
+    case "ArrowDown":
+      keys.ArrowDown = false;
+      break;
   }
 };
