@@ -1,9 +1,37 @@
 body {
   padding: 0;
   margin: 0;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#canvas {
-  background-image: url(./assets/bgimg1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+/* #menu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
+
+#menu h1 {
+  font-family: "Arial", sans-serif;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+#menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+#menu li {
+  margin-bottom: 10px;
+}
+
+#menu button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+} */

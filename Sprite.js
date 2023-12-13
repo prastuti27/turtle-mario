@@ -1,5 +1,5 @@
 class Sprite {
-  constructor(position) {
+  constructor({ position, imageSrc }) {
     this.position = position;
     this.image = new Image();
     this.image.src = imageSrc;
